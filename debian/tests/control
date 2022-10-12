@@ -1,0 +1,5 @@
+Tests: embedded-py3 daemon-py3
+Restrictions: needs-root, isolation-container
+Depends: apache2,
+         libapache2-mod-wsgi-py3,
+         wget,
